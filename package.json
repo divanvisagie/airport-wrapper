@@ -22,7 +22,7 @@
     "url": "git://github.com/divanvisagie/airport-wrapper.git"
   },
   "main": "./lib/airport",
-  "preferGlobal": "true",
+  "preferGlobal": "false",
   "scripts": {
     "test": "node ./tests/test.js"
   },
