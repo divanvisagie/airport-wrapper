@@ -1,0 +1,30 @@
+{
+  "name": "airport-wrapper",
+  "description": "A node.js wrapper for the airport tool on OSX",
+  "version": "0.0.1",
+  "author": "Divan Visagie <visagiedivan@gmail.com>",
+  "contributors": [ 
+    { "name": "Divan Visagie", "email": "visagiedivan@gmail.com" }
+  ],
+  "dependencies": {
+
+    "colors" : ">= 0.6.0",
+    "q" : ">= 0.8.0",
+    "plist" : ">= 0.4.1"  
+  },
+  "devDependencies": {
+    
+  },
+  "keywords": [ "library", "airport", "OSX" ],
+  "repository": {
+    "type": "git",
+    "url": "git://"
+  },
+  "main": "./lib/airport",
+  "preferGlobal": "true",
+  "bin": {
+    "narf" : "./lib/narfconfig.js"
+  },
+  "scripts" : { "test" : "node ./tests/test.js" },
+  "engines": { "node": ">= 0.8.4" }
+}
