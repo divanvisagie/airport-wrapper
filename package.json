@@ -3,28 +3,35 @@
   "description": "A node.js wrapper for the airport tool on OSX",
   "version": "0.0.1",
   "author": "Divan Visagie <visagiedivan@gmail.com>",
-  "contributors": [ 
-    { "name": "Divan Visagie", "email": "visagiedivan@gmail.com" }
+  "contributors": [
+    "Divan Visagie <visagiedivan@gmail.com>"
   ],
   "dependencies": {
-
-    "colors" : ">= 0.6.0",
-    "q" : ">= 0.8.0",
-    "plist" : ">= 0.4.1"  
+    "colors": ">= 0.6.0",
+    "q": ">= 0.8.0",
+    "plist": ">= 0.4.1"
   },
-  "devDependencies": {
-    
-  },
-  "keywords": [ "library", "airport", "OSX" ],
+  "devDependencies": {},
+  "keywords": [
+    "library",
+    "airport",
+    "OSX"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://"
+    "url": "git://github.com/divanvisagie/airport-wrapper.git"
   },
   "main": "./lib/airport",
   "preferGlobal": "true",
-  "bin": {
-    "narf" : "./lib/narfconfig.js"
+  "scripts": {
+    "test": "node ./tests/test.js"
   },
-  "scripts" : { "test" : "node ./tests/test.js" },
-  "engines": { "node": ">= 0.8.4" }
+  "engines": {
+    "node": ">= 0.8.4"
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "tests"
+  },
+  "license": "MIT"
 }

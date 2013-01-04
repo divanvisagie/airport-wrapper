@@ -1,33 +1,12 @@
-var airport = require('./airport');
-
-console.log( airport );
+var airport = require( '../lib/airport' );
 
 airport.scan(function( data, err ){
-
-	console.log( 'Testing scan\n----' );
-    if (err) {
-        console.log("Error : " + err);
-        return;
-    }
-
+        
+    //print the output object
     console.log(data);
-
-
-    console.log(airport.utility);
 });
 
-console.log( 'Testing getinfo' );
+airport.airport( '--scan' , function( data, err ){
 
-airport.getinfo(function( data, err ){
-
-	console.log( 'Testing getinfo\n----' );
-    if (err) {
-        console.log("Error : " + err);
-        return;
-    }
-
-    console.log(data);
-
-
-    console.log(airport.utility);
+    console.log( data );
 });
