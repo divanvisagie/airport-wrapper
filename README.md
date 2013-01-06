@@ -52,6 +52,13 @@ When you call a function in this library , the binary located at /System/Library
 --xml , this causes it to return an XML Plist file as output , this is then parsed using the node-plist library and 
 returned to you as a JavaScript object.
 
+All functions use the plist method except for scan() and getinfo() which parse the data directly and much more cleanly , in
+future this may apply to all functions.
+
+## Credit
+
+Inspired by some of the work in this project under lib/airport.js: https://github.com/mauricesvay/node-wifiscanner
+
 #License 
 
 MIT License
