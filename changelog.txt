@@ -1,0 +1,4 @@
+Version 0.0.2
+=============
+
+parsed data manually for scan() and getinfo() resulting in much cleaner output objects.

@@ -6,7 +6,7 @@ airport.scan(function( data, err ){
     console.log(data);
 });
 
-airport.airport( '--scan' , function( data, err ){
+airport.getinfo( function( data, err ){
 
     console.log( data );
 });
