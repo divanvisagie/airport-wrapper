@@ -5,19 +5,19 @@ A node.js wrapper for the airport tool on OSX
 
 ## Installation 
 
-	npm install airport-wrapper
+  npm install airport-wrapper
 
 ## Functions
 
-	scan( callback )
+  scan( callback )
 
-	getinfo( callback )
+  getinfo( callback )
 
-	disassociate( callback )
+  disassociate( callback )
 
-	help( callback ) /* returns help object */
+  help( callback ) /* returns help object */
 
-	airport( parameters, callback )
+  airport( parameters, callback )
 
 
 ### scan(), getinfo(), disassociate(), help()
@@ -27,13 +27,13 @@ when the operation completes it returns the data as a javascript object.
 
 eg:
 
-	var airport = require( 'airport-wrapper' );
+  var airport = require( 'airport-wrapper' );
 
-	airport.scan(function( data, err ){
-		
-		/* print the output object */
-		console.log( data );
-	});
+  airport.scan(function( err, data ){
+
+    /* print the output object */
+    console.log( data );
+  });
 
 ### airport()
 
@@ -41,11 +41,11 @@ The airport fuction takes a string of arguments and a callback as parameters. It
 
 eg:
 
-	airport.airport( '--scan', function( data, err ){
+  airport.airport( '--scan', function( err, data ){
 
-	    console.log( data );
-	});
-	
+      console.log( data );
+  });
+
 ## How does it work?
 
 When you call a function in this library , the binary located at /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport in the system is executed with the appropriate parameters and the extra flag 
