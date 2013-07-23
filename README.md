@@ -1,6 +1,9 @@
 airport-wrapper
 ===============
 
+[![NPM version](https://badge.fury.io/js/airport-wrapper.png)](http://badge.fury.io/js/airport-wrapper)
+[![NGN Dependencies](https://david-dm.org/divanvisagie/airport-wrapper.png)](https://david-dm.org/divanvisagie/airport-wrapper)
+
 A node.js wrapper for the airport tool on OSX
 
 ## Installation 
