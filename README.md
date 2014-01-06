@@ -29,7 +29,7 @@ scan(), getinfo(), disassociate(), help() all work in the same way, they require
 when the operation completes it returns the data as a javascript object.
 
 eg:
-
+```js
   var airport = require( 'airport-wrapper' );
 
   airport.scan(function( err, data ){
@@ -37,6 +37,7 @@ eg:
     /* print the output object */
     console.log( data );
   });
+```
 
 ### airport()
 
@@ -44,10 +45,12 @@ The airport fuction takes a string of arguments and a callback as parameters. It
 
 eg:
 
+```js
   airport.airport( '--scan', function( err, data ){
 
       console.log( data );
   });
+```
 
 ## How does it work?
 
