@@ -7,11 +7,16 @@
     "Divan Visagie <visagiedivan@gmail.com>"
   ],
   "dependencies": {
-    "colors": ">= 0.6.0",
-    "q": ">= 0.8.0",
-    "plist": ">= 0.4.1"
+    "colors": "0.6.x",
+    "q": "1.x.x",
+    "plist": "0.4.x"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
   "keywords": [
     "library",
     "airport",
@@ -27,7 +32,7 @@
     "test": "node ./tests/test.js"
   },
   "engines": {
-    "node": ">= 0.8.4"
+    "node": ">= 0.8.x"
   },
   "readmeFilename": "README.md",
   "directories": {
