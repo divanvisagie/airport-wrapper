@@ -1,6 +1,6 @@
 {
   "name": "airport-wrapper",
-  "description": "A node.js wrapper for the airport tool on OSX",
+  "description": "A node.js wrapper for the airport tool on macOS",
   "version": "0.0.4",
   "author": "Divan Visagie <visagiedivan@gmail.com>",
   "contributors": [
