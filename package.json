@@ -1,7 +1,7 @@
 {
   "name": "airport-wrapper",
   "description": "A node.js wrapper for the airport tool on OSX",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Divan Visagie <visagiedivan@gmail.com>",
   "contributors": [
     "Divan Visagie <visagiedivan@gmail.com>"
@@ -32,7 +32,7 @@
     "test": "node ./tests/test.js"
   },
   "engines": {
-    "node": ">= 0.8.x"
+    "node": ">= 10.x"
   },
   "readmeFilename": "README.md",
   "directories": {

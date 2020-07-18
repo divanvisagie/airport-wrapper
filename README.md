@@ -1,5 +1,4 @@
-airport-wrapper
-===============
+# airport-wrapper
 
 [![NPM version](https://badge.fury.io/js/airport-wrapper.png)](http://badge.fury.io/js/airport-wrapper)
 [![NGN Dependencies](https://david-dm.org/divanvisagie/airport-wrapper.png)](https://david-dm.org/divanvisagie/airport-wrapper)
@@ -12,15 +11,15 @@ A node.js wrapper for the airport tool on OSX
 
 ## Functions
 
-  scan( callback )
+`scan(callback)`
 
-  getinfo( callback )
+`getinfo(callback)`
 
-  disassociate( callback )
+`disassociate(callback)`
 
-  help( callback ) /* returns help object */
+`help(callback) /* returns help object */`
 
-  airport( parameters, callback )
+`airport(parameters, callback)`
 
 
 ### scan(), getinfo(), disassociate(), help()
@@ -30,12 +29,12 @@ when the operation completes it returns the data as a javascript object.
 
 eg:
 ```js
-  var airport = require( 'airport-wrapper' );
+  const airport = require('airport-wrapper');
 
-  airport.scan(function( err, data ){
+  airport.scan((err, data) => {
 
     /* print the output object */
-    console.log( data );
+    console.log(data);
   });
 ```
 
@@ -46,9 +45,8 @@ The airport fuction takes a string of arguments and a callback as parameters. It
 eg:
 
 ```js
-  airport.airport( '--scan', function( err, data ){
-
-      console.log( data );
+  airport.airport('--scan', (err, data) => {
+    console.log(data);
   });
 ```
 
@@ -65,7 +63,7 @@ future this may apply to all functions.
 
 Inspired by some of the work in this project under lib/airport.js: https://github.com/mauricesvay/node-wifiscanner
 
-#License 
+# License 
 
 MIT License
 

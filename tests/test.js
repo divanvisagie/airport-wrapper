@@ -1,11 +1,6 @@
-
-
-
-
-
 'use strict';
 
-var airport = require( '../lib/airport' );
+const airport = require( '../lib/airport' );
 
 exports['airport'] = {
 
