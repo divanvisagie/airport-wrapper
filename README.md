@@ -2,7 +2,6 @@
 
 ![Node.js CI](https://github.com/divanvisagie/airport-wrapper/workflows/Node.js%20CI/badge.svg)
 [![NPM version](https://badge.fury.io/js/airport-wrapper.png)](http://badge.fury.io/js/airport-wrapper)
-)
 
 A node.js wrapper for the airport tool on OSX
 
