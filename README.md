@@ -24,7 +24,7 @@ A node.js wrapper for the airport tool on OSX
 
 ### scan(), getinfo(), disassociate(), help()
 
-scan(), getinfo(), disassociate(), help() all work in the same way, they require a callback with a data and error parameter, 
+`scan()`, `getinfo()`, `disassociate()`, `help()` all work in the same way, they require a callback with a data and error parameter, 
 when the operation completes it returns the data as a javascript object.
 
 eg:
