@@ -1,22 +1,19 @@
 {
   "name": "airport-wrapper",
   "description": "A node.js wrapper for the airport tool on macOS",
-  "version": "0.2.8",
-  "author": "Divan Visagie <visagiedivan@gmail.com>",
+  "version": "0.3.0",
+  "author": "Divan Visagie <me@dvisagie.com>",
   "contributors": [
-    "Divan Visagie <visagiedivan@gmail.com>"
+    "Divan Visagie <me@dvisagie.com>"
   ],
   "dependencies": {
+    "@types/jest": "^26.0.15",
     "colors": "0.6.x",
-    "q": "1.x.x",
-    "plist": "0.4.x"
+    "jest": "^26.6.3",
+    "plist": "^3.0.1",
+    "q": "1.x.x"
   },
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.2"
-  },
+  "devDependencies": {},
   "keywords": [
     "library",
     "airport",
@@ -27,9 +24,9 @@
     "url": "git://github.com/divanvisagie/airport-wrapper.git"
   },
   "main": "./lib/airport",
-  "preferGlobal": "false",
+  "preferGlobal": false,
   "scripts": {
-    "test": "node ./tests/test.js"
+    "test": "jest"
   },
   "engines": {
     "node": ">= 10.x"
