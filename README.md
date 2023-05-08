@@ -52,7 +52,7 @@ eg:
 
 ## How does it work?
 
-When you call a function in this library , the binary located at /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport in the system is executed with the appropriate parameters and the extra flag 
+When you call a function in this library , the binary located at `/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport` in the system is executed with the appropriate parameters and the extra flag 
 --xml , this causes it to return an XML Plist file as output , this is then parsed using the node-plist library and 
 returned to you as a JavaScript object.
 
