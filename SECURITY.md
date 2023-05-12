@@ -10,4 +10,4 @@
 
 ## Reporting a Vulnerability
 
-Please mail me at me@dvisagie.com
+Please mail me at me@divanv.com
