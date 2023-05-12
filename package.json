@@ -7,9 +7,9 @@
     "Divan Visagie <me@dvisagie.com>"
   ],
   "dependencies": {
-    "@types/jest": "^26.0.15",
-    "colors": "0.6.x",
-    "jest": "^26.6.3",
+    "@types/jest": "^29.5.1",
+    "colors": "1.4.0",
+    "jest": "^29.5.0",
     "plist": "^3.0.1",
     "q": "1.x.x"
   },
