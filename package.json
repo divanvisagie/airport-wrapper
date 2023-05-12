@@ -29,7 +29,7 @@
     "test": "jest"
   },
   "engines": {
-    "node": ">= 10.x"
+    "node": ">= 16.x"
   },
   "readmeFilename": "README.md",
   "directories": {
